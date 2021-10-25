@@ -15,7 +15,7 @@ _This is generally in the root of your project._
 
 ```
 {
-  "baseUrl": "https://www.ao.com",
+  "baseUrl": "https://example.cypress.io",
   "video": false,
   "ignoreTestFiles": "*.c.ts"
 }
