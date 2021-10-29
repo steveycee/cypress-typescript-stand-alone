@@ -7,5 +7,6 @@ describe("Desktop Navigation Bar Tests", () => {
 
   it("Given I make a valid search I expect relevant results.", () => {
     cy.titleCheck();
+    cy.linkUrlCheck(".navbar", 0);
   });
 });
